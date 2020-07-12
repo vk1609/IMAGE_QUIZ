@@ -56,6 +56,7 @@
     });
     // result of the quiz
     resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+    alert("WOW YOU HAD DONE THE QUIZ");
   }
 
   function showSlide(n) {
