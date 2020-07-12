@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    color: rgb(3, 1, 0);
+    font-weight: 300;
+    text-align: initial;
+}
+
+h1 {
+    display: flex;
+    font-size: 20px;
+    border-radius: 12px;
+    justify-content: center;
+    font-weight: 200;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #444;
+    color: #fff;
+}
+
+.question {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    font-size: 30px;
+    height: 220px;
+    margin-bottom: 10px;
+}
+
+.answers {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    height: 100px;
+    text-align: left;
+    color: black;
+
+}
+
+.answers label {
+    display: block;
+    margin-bottom: 10px;
+    height: 75px;
+}
+
+button {
+
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+    background-color: cyan;
+    color: black;
+    border: 0px;
+    border-radius: 12px;
+    padding: 20px;
+    cursor: pointer;
+    margin-block-start: auto;
+    z-index: 3;
+}
+
+
+
+.slide {
+    background-image: url("bgs2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: center;
+    background-size: cover;
+    border-radius: 15px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.active-slide {
+    opacity: 1;
+    z-index: 2;
+}
+
+.quiz-container {
+    position: relative;
+    height: 400px;
+    margin-top: 80px;
+    color: cyan;
+}
